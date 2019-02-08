@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C58E7A6F-E066-4BC9-A728-A5BF7CE558B3}</ProjectGuid>
+    <ProjectGuid>{502EF622-EDE4-420B-A52A-C9DF3A8447AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CodeWarsExercises</RootNamespace>
-    <AssemblyName>CodeWarsExercises</AssemblyName>
+    <RootNamespace>CodeWarsExercisesTests</RootNamespace>
+    <AssemblyName>CodeWarsExercisesTests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Revrot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

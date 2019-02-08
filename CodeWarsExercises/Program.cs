@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace CodeWarsExercises
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+           var  list = Revrot.ExtractChunks("5435555555555754555555255558555", 5);
+            foreach (var chunk in list)
+            {
+                Console.WriteLine(chunk);
+
+                Console.ReadKey();
+
+            }
         }
     }
 }
