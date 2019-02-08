@@ -34,11 +34,16 @@ namespace CodeWarsExercises
         public static IEnumerable<string> ExtractChunks(string mystrng, int chunkSize)
         {
             var chunks = new List<string>();
-            string remSubstring = "";
+            var remString = "";
             for (var i = 0; i < mystrng.Length; i+=chunkSize)
             {
-               
-                chunks.Add(mystrng.Substring(i,chunkSize));
+                var strngRemove = mystrng.Substring(i, chunkSize);
+                mystrng.Remove(i, chunkSize);
+                
+                chunks.Add(myNewString);
+                var myS = mystrng;
+                var ch = chunks.Count;
+
             }
 
             return chunks;
